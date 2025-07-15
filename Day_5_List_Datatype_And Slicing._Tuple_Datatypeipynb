@@ -1,0 +1,302 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "d33d59d1-8500-44e2-952a-e0c959d7084e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['Toyota', 'Volkswagen', 'Ford', 'Honda', 'BMW', 'Audi', 'Tesla']\n"
+     ]
+    }
+   ],
+   "source": [
+    "cars = ['Toyota', 'Volkswagen', 'Ford', 'Honda', 'BMW', 'Audi', 'Tesla']\n",
+    "print (cars)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "cd684bf2-4200-43d5-ad94-3ca133a3cc61",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['Audi', 'BMW', 'Ford', 'Honda', 'Tesla', 'Toyota', 'Volkswagen']\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Sort temp.\n",
+    "print(sorted(cars))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "3f551816-27d1-4f6f-8512-7f4090534f41",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['Toyota', 'Volkswagen', 'Ford', 'Honda', 'BMW', 'Audi', 'Tesla']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(cars)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "f5969fec-4ce9-4619-b467-6b73df92da10",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['Audi', 'BMW', 'Ford', 'Honda', 'Tesla', 'Toyota', 'Volkswagen']\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Sort Permanant\n",
+    "cars.sort()\n",
+    "print(cars)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "95ac15bf-7893-43cd-a0c2-a54da1008bed",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['Audi', 'BMW', 'Ford', 'Honda', 'Tesla', 'Toyota', 'Volkswagen']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(cars)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "6758bf28-0771-4cf2-94d1-82640a8707fb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "7\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Length of list\n",
+    "print(len(cars))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "21e791ad-3e6d-448c-b67a-ec19d6243306",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['Volkswagen', 'Toyota', 'Tesla', 'Honda', 'Ford', 'BMW', 'Audi']\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Reverse order\n",
+    "cars.reverse()\n",
+    "print(cars)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a1e66ec3-6233-4b6d-8f84-0b8e5dd99b2c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Slicing the list"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "7ceca257-d008-441f-b721-cd756f6e2eec",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['Toyota', 'Honda']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(cars[1:4:2])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "85307c39-53ab-4628-885d-882fb1c8eff7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['Volkswagen', 'Toyota', 'Tesla']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(cars[0:3])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "de7243f1-a8ce-4aae-9af5-af982d850613",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['Volkswagen', 'Toyota', 'Tesla', 'Honda', 'Ford', 'BMW', 'Audi']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(cars[0:])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "b1641758-a5e4-407c-b620-906e6e5df0d7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['Volkswagen', 'Toyota', 'Tesla']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(cars[:3])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "08ffb3a4-2ac5-4d61-b027-5554ab76c4e9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Audi\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(cars[-1])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "ef1a442d-4217-431d-9a2a-2c1c185a4a3d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['Volkswagen', 'Toyota', 'Tesla', 'Honda', 'Ford', 'BMW']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(cars[:-1])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "f86a6448-e26d-42f5-9735-5421c2aa0cd1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[]\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(cars[-2:4])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e8ccd41d-17bd-48f0-ad91-5843e58940ac",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.2"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
